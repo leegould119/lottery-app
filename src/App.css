@@ -1,0 +1,16 @@
+
+.balls {
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  background-color: crimson;
+}

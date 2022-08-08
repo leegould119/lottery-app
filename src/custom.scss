@@ -1,0 +1,40 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+.balls {
+    display: inline-block;
+    // cursor: pointer;
+    margin: 5px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    
+};
+.selectable-balls {
+  cursor: pointer;
+  border: 2px solid #00988b;
+  background-color: #009898;
+};
+  
+  .selected-balls {
+    border: 2px solid #bf9b30;
+    background-color: #a67c00;
+  }
+  .lucky-dip-balls {
+    border: 2px solid #bf9b30;
+    background-color: #a67c00;
+  }
+  .matching-balls {
+    border: 2px solid #00563B;
+    background-color: #4B6F44;
+  }
+  .selected-numbers {
+    background-color: #333; 
+    text-align: center;
+    padding: 20px;
+  }
+  
